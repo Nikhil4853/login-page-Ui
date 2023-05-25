@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outerbox {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top right, rgb(141, 204, 230), rgba(239, 197, 245, 0.788));
+}
+
+.innerBox {
+    background-color: white;
+    width: 350px;
+    margin: 0px auto;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 20px 40px;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    z-index: 2;
+    box-shadow: 0px 2px 2px;
+}
+
+.signUp h1 {
+    margin-top: 30px;
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.signUp p {
+    font-size: 1rem;
+    color: #4b4848;
+}
+
+.signUpBody {
+    margin: 30px 0;
+}
+
+.signUpBody p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.signUpBody p label {
+    display: block;
+}
+
+.signUpBody p input {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.signUpBody p button {
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.signUpBody p button:hover {
+    box-shadow: 0px 2px 2px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.signup-footer {
+    margin-top: 10px 0px;
+    text-align: center;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #ffffff33, #ffff);
+    position: absolute;
+}
+
+.circle.c1 {
+    top: 100px;
+    left: 40px;
+}
+
+.circle.c2 {
+    bottom: 200px;
+    right: 40px;
+}
